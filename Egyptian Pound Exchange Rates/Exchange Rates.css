@@ -1,0 +1,42 @@
+body
+{
+	background-image:url('mony3.jpg');
+	margin:0px;
+	padding:0px;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-color:#00F
+
+}
+
+input[type="text"]
+{
+	background-color:#DDD;
+	padding:5px;
+	margin:10px;
+	border:none;
+	height:50px;
+	position:relative;
+	left:500px;
+	top:150px
+}
+
+select
+{
+	position:relative;
+	left:490px;
+	top:150px;
+	height:30px;
+	font-weight:bold
+}
+
+div
+{
+	text-align:center;
+	position:relative;
+	top:170px;
+	color:#00F
+}

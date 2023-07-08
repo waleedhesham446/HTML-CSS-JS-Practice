@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Registration Form2</title>
+		<link rel="stylesheet" href="Registration Form2.css">
+	</head>
+	<body>
+		<div class="regform"><h1>Registration Form</h1></div>
+		<div class="main">
+			<form>
+				<div id="name">
+					<h2 class="name">Name</h2>
+
+					<input type="text" class="firstname" name="first_name"><br>
+					<label class="firstlabel">First Name</label>
+					
+					<input type="text" class="lastname" name="last_name">
+					<label class="lastlabel">Last Name</label>
+				</div>
+
+				<h2 class="name">Company</h2>
+				<input type="text" class="company" name="company">
+				
+				<h2 class="name">Email</h2>
+				<input type="text" class="email" name="email">		
+
+				<h2 class="name">Phone</h2>
+				<input type="text" class="code" name="area_code">
+				<label class="area-code">Area Code</label>
+
+				<input type="text" class="number" name="phone">
+				<label class="phone-number">Phone Number</label>				
+			
+				<h2 class="name">Subject</h2>
+				<select class="option" name="subject">
+					<option disabled="disabled" selected="selected">--Choose Option</option>
+					<option>Subject 1</option>
+					<option>Subject 2</option>
+					<option>Subject 3</option>
+				</select>
+				
+				<h2 id="student">Are You Beginner ?<h2>
+				<label class="radio">
+					<input type="radio" checked="checked" class="radio-one" name="opt">
+					<span class="checkmark"></span>
+					Yes
+				</label>
+				<label class="radio">
+					<input type="radio" class="radio-two" name="opt">
+					<span class="checkmark"></span>
+					No
+				</label>
+				
+				<button type="submit">Register</button>
+			</form>
+		</div>
+	</body>
+</html>

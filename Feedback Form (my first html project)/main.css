@@ -1,0 +1,89 @@
+.openning_p
+{
+	font-weight:;
+	font-family:Tahoma;
+	padding:10px;
+	margin:10px;
+	font-size:
+}
+
+hr
+{
+	border:1px solid #EEE;
+	margin:0px 200px 30px 200px
+}
+
+label
+{
+	font-weight:bold;
+	font-size:20px;
+	padding:10px;
+	margin:10px 0px 0px 0px;
+	display:block
+}
+
+ul
+{
+	list-style:none
+}
+
+ul li 
+{
+	display:inline-block;
+	padding:10px 100px 10px 0px
+}
+
+.leftradio
+{
+}
+
+.rightradio
+{
+
+}
+
+textarea
+{
+	display:block;
+	margin:10px;
+	width:350px;
+	height:100px;
+	background:#DDD
+}
+
+input[type="text"]
+{
+	display:block;
+	padding:10px;
+	margin:10px
+}
+
+fieldset
+{
+	background:#FFF;
+	border:1px solid #CCC;
+	padding:20px;
+	margin-bottom:20px
+}
+
+legend
+{
+	background:#FFF;
+	border:1px solid #CCC;
+	padding:10px	
+}
+
+span
+{
+	color:#F00
+}
+
+input[type="submit"]
+{
+	background:#006;
+	color:#FFF;
+	margin:10px 550px;
+	padding:10px;
+	cursor:pointer
+}
+

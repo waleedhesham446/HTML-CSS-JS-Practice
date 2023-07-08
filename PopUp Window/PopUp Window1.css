@@ -1,0 +1,42 @@
+*{
+	padding: 0;
+	margin: 0
+}
+
+body{
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+section{
+	text-align: center;
+	height: 657px;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('sunset.jpg');	
+}
+
+h1{
+	color: #FFF;
+	position: relative;
+	top: 275px;
+	font-size: 55px
+}
+
+button{
+	position: relative;
+	top: 300px;
+	width: 350px;
+	height: 50px;
+	background-color: #629e3a;
+	font-size: 1.25em;
+	border: 0;
+	cursor: pointer;
+	transition: 0.4s ease;
+	border-radius: 6px;	
+}
+
+button:hover{
+	background-color: #7ec54e;
+	width: 360px;
+	height: 55px;
+	color: #000;
+}
